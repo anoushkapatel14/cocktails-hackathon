@@ -1,0 +1,10 @@
+@use "./variables" as *;
+
+@mixin mobile-form-box {
+    background-color: $primarycolour-border-buttom;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    border: solid 1px white;
+    margin-bottom: 1rem;
+    color: $primarycolour-light-text;
+  }

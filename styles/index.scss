@@ -1,0 +1,162 @@
+@use "./partials/resets";
+@use "./partials/mixins" as *;
+@use "./partials/variables" as *;
+@use "./partials/typography";
+
+.header {
+  background-color: $primarycolour-dark-background;
+  border-bottom: solid 1px $primarycolour-border-buttom;
+  padding: $mobile-padding-width;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  &__title {
+    font-size: 2.5rem;
+    color: $primarycolour-light-text;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.hero {
+  background-image: url(../assets/images/gettyimages-157639696.webp);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 3rem;
+  
+
+
+  &__title {
+    padding-top: 2rem;
+    color: #fafafa;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+}
+
+.card-container {
+ 
+}
+
+.card {
+  margin: 0 auto;
+  width: 40rem;
+  padding: 0.5rem;
+  background-color: rgb(224, 231, 255);
+  border-radius: 7px;
+  box-shadow: 0 5px 10px 0 rgba(160, 192, 233, 0.5),
+    0 5px 10px 0 rgba(144, 177, 222, 0.5);
+
+  &__top {
+    display: flex;
+    justify-content: center;
+  }
+  &__image {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #496c99;
+    height: 7rem;
+  }
+  &__name {
+    color: #496c99;
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+  &__details {
+    padding-bottom: 1rem;
+  }
+  &__subheading {
+    text-align: center;
+  }
+  &__ingredients {
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+    padding-left: 0rem;
+  }
+  &__ingredient {
+    text-align: center;
+  }
+  &__recipe {
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.main {
+  background-color: $primarycolour-dark-background;
+
+  &__title {
+    color: $primarycolour-light-text;
+    padding: $mobile-padding-width;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+}
+
+.search{
+  padding-bottom: 3rem;
+}
+.form {
+  padding: $mobile-padding-width;
+
+  &__cocktail-name {
+    max-width: 100%;
+  }
+  &__cocktail-name {
+    display: flex;
+    justify-content: center;
+  }
+  &__search-bar {
+    @include mobile-form-box;
+    color: $primarycolour-dark-background;
+    background-color: $primarycolour-light-text;
+    width: 49%;
+    padding-bottom: 0.5rem;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  &__search-button {
+    background-color: $primarycolour-border-buttom;
+    color: $primarycolour-light-text;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    width: 13%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  background-color: $primarycolour-dark-background;
+  padding: $mobile-padding-width;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+
+  &__div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__made-by {
+    color: $primarycolour-light-text;
+    font-size: 0.75rem;
+  }
+
+  &__drink {
+    color: $primarycolour-light-text;
+    font-size: 0.75rem;
+  }
+}

@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header {
+  background-color: #021F4B;
+  border-bottom: solid 1px #496C99;
+  padding: 0rem 1rem 0rem 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.header__title {
+  font-size: 2.5rem;
+  color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  background-image: url(../assets/images/gettyimages-157639696.webp);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 3rem;
+}
+.hero__title {
+  padding-top: 2rem;
+  color: #fafafa;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.card {
+  margin: 0 auto;
+  width: 40rem;
+  padding: 0.5rem;
+  background-color: rgb(224, 231, 255);
+  border-radius: 7px;
+  box-shadow: 0 5px 10px 0 rgba(160, 192, 233, 0.5), 0 5px 10px 0 rgba(144, 177, 222, 0.5);
+}
+.card__top {
+  display: flex;
+  justify-content: center;
+}
+.card__image {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #496c99;
+  height: 7rem;
+}
+.card__name {
+  color: #496c99;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+.card__details {
+  padding-bottom: 1rem;
+}
+.card__subheading {
+  text-align: center;
+}
+.card__ingredients {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+  padding-left: 0rem;
+}
+.card__ingredient {
+  text-align: center;
+}
+.card__recipe {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.main {
+  background-color: #021F4B;
+}
+.main__title {
+  color: #FAFAFA;
+  padding: 0rem 1rem 0rem 1rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.search {
+  padding-bottom: 3rem;
+}
+
+.form {
+  padding: 0rem 1rem 0rem 1rem;
+}
+.form__cocktail-name {
+  max-width: 100%;
+}
+.form__cocktail-name {
+  display: flex;
+  justify-content: center;
+}
+.form__search-bar {
+  background-color: #496C99;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  border: solid 1px white;
+  margin-bottom: 1rem;
+  color: #FAFAFA;
+  color: #021F4B;
+  background-color: #FAFAFA;
+  width: 49%;
+  padding-bottom: 0.5rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.form__search-button {
+  background-color: #496C99;
+  color: #FAFAFA;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  width: 13%;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  background-color: #021F4B;
+  padding: 0rem 1rem 0rem 1rem;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+.footer__div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__made-by {
+  color: #FAFAFA;
+  font-size: 0.75rem;
+}
+.footer__drink {
+  color: #FAFAFA;
+  font-size: 0.75rem;
+}/*# sourceMappingURL=index.css.map */

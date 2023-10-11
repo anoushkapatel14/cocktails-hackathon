@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmonauts</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script src="./scripts/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="header__title">COSMONAUTS</h2>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+       
+          <h1 class="hero__title">Cocktail of The Day</h1>
+          <section class="card-container"></section>
+   
+      </section>
+
+      <section class="search">
+        <h2 class="main__title">Search for your favourite cocktail</h2>
+        <form class="form">
+          <div class="form__cocktail-name">
+            <input
+              class="form__search-bar"
+              type="text"
+              name="search"
+              placeholder="Search for your favourite cocktail here"
+            />
+          </div>
+
+          <div class="button-div">
+            <button class="form__search-button" type="submit">SEARCH</button>
+          </div>
+        </form>
+        <section class="card-container"></section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__div">
+        <p class="footer__made-by">Made by Anoushka, Lara & Olivia</p>
+        <p class="footer__drink">Drink responsibly</p>
+      </div>
+    </footer>
+  </body>
 </html>
