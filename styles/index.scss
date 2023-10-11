@@ -34,9 +34,6 @@
   }
 }
 
-.card-container {
- 
-}
 
 .card {
   margin: 0 auto;
@@ -103,10 +100,8 @@
 .form {
   padding: $mobile-padding-width;
 
-  &__cocktail-name {
+  &__wrapper {
     max-width: 100%;
-  }
-  &__cocktail-name {
     display: flex;
     justify-content: center;
   }

@@ -99,10 +99,8 @@ body {
 .form {
   padding: 0rem 1rem 0rem 1rem;
 }
-.form__cocktail-name {
+.form__wrapper {
   max-width: 100%;
-}
-.form__cocktail-name {
   display: flex;
   justify-content: center;
 }
